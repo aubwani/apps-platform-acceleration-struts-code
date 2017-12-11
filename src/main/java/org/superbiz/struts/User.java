@@ -30,6 +30,7 @@ public class User implements Serializable {
     private String firstName;
     private String lastName;
 
+
     public User(long id, String firstName, String lastName) {
         super();
         this.id = id;
